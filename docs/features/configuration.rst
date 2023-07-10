@@ -31,6 +31,10 @@ Here is an example Route configuration, You don't need to set all of these thing
                 "TtlSeconds": 0,
                 "Region": ""
             },
+            "SecurityOptions": {
+                "IPAllowedList": [],
+                "IPBlockedList": []
+            },
             "RouteIsCaseSensitive": false,
             "ServiceName": "",
             "DownstreamScheme": "http",
@@ -66,7 +70,7 @@ Here is an example Route configuration, You don't need to set all of these thing
             "DangerousAcceptAnyServerCertificateValidator": false
         }
 
-More information on how to use these options is below..
+More information on how to use these options is below.
 
 Multiple environments
 ^^^^^^^^^^^^^^^^^^^^^
