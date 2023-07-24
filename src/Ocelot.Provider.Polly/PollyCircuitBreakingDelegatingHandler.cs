@@ -1,11 +1,9 @@
+using Ocelot.Logging;
+using Polly;
+using Polly.CircuitBreaker;
 using System.Net.Http;
 using System.Threading;
 using System.Threading.Tasks;
-
-using Ocelot.Logging;
-
-using Polly;
-using Polly.CircuitBreaker;
 
 namespace Ocelot.Provider.Polly
 {
