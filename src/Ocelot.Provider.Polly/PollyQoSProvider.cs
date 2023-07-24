@@ -1,10 +1,8 @@
-using global::Polly;
-using global::Polly.CircuitBreaker;
-using global::Polly.Timeout;
 using Ocelot.Configuration;
 using Ocelot.Logging;
-using System;
-using System.Net.Http;
+using Polly;
+using Polly.CircuitBreaker;
+using Polly.Timeout;
 
 namespace Ocelot.Provider.Polly
 {
