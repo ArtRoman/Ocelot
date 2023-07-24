@@ -2,7 +2,6 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Moq;
 using Ocelot.Configuration.Setter;
 using Ocelot.DependencyInjection;
 using Ocelot.Infrastructure;
@@ -12,15 +11,7 @@ using Ocelot.Requester;
 using Ocelot.Responses;
 using Ocelot.UnitTests.Requester;
 using Ocelot.Values;
-using Shouldly;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Net.Http;
 using System.Reflection;
-using System.Threading.Tasks;
-using TestStack.BDDfy;
-using Xunit;
 using static Ocelot.UnitTests.Multiplexing.UserDefinedResponseAggregatorTests;
 
 namespace Ocelot.UnitTests.DependencyInjection
